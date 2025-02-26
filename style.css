@@ -1,0 +1,306 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 60px;
+    background-color: black;
+    border: 1px solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    width: 100%; 
+    padding: 0; 
+    margin: 0; 
+    
+}
+
+nav ul li {
+    display: flex; /* Allow flex alignment */
+    align-items: center; /* Center list items vertically */
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 50px;
+    background-color:whitesmoke;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: inter;
+    font-size: 14px;
+    
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin-top: 140px;
+    margin-bottom: 60px;
+
+}
+
+.home img {
+    width: 300px;
+    height: 300px;
+}
+
+.hometext {
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    margin-left: 100px;
+}
+
+.firstline {
+    display: block;
+    font-family: Inter;
+    font-size: 24px;
+}
+.Myname {
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 128px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.lastline {
+    font-family: Inter;
+    display: block;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.about {
+    background-color: #141415;
+    color: white;
+     display: flex;
+     justify-content: center;
+}
+
+.abouttext {
+    max-width: 75%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.abouttitle {
+    font-family: inter;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.aboutparagraph {
+    width: 100%;
+    text-align: center;
+    font-family: inter;
+    font-weight: 300;
+    font-size: 16px;
+    
+}
+
+.workexptitle {
+    width: 100%;
+    text-align: left;
+    margin-top: 50px;
+    border-bottom: .5px solid white;
+    padding-bottom: 10px;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.jobs {
+    display: flex;
+    justify-content:space-between;
+    text-align: left;
+}
+
+.jobtitle {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.jobposition {
+    font-family: inter;
+    font-weight: 120;
+    margin-top: -20px;
+
+}
+.jobduties {
+    text-align: left;
+    font-family: inter;
+    font-weight: 350;
+    font-size: 15px;
+    margin-left: -20px;
+    margin-bottom: 50px;
+}
+
+.resume {
+    font-family: inter;
+    text-decoration: none;
+    color: white;
+    font-size: 20;
+}
+
+.resume:hover {
+    text-decoration: underline;
+}
+.projects {
+    background-color: #D9D9D9;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.projecttext {
+    max-width: 75%;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.projecttitle {
+    font-family: inter;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+
+}
+
+.projectexamples {
+    display: flex;
+    justify-content:space-between;
+    text-align: left;
+}
+
+.project1 img, 
+.project2 img, 
+.project3 img {
+    width: 200px;
+    height: 200px;
+}
+
+.projectname {
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 500px;
+    letter-spacing: 1px;
+}
+
+.ProjectDesc {
+    font-family: inter;
+    font-weight: 350;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.projecttext a {
+    color: black;
+}
+
+.projecttext a:hover {
+    text-decoration: underline;
+}
+
+/* contact form starts below */
+.contact {
+    background-color: #141415;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+ 
+}
+
+.contactcontent {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 75%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hireme {
+    display: flex;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: .85;
+    text-align: left;
+}
+
+.contacttitle {
+    font-family: inter;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.contactemail {
+    font-family: inter;
+    font-weight: 1;
+    margin-top: -50px;
+    letter-spacing: 4px;
+}
+.contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.contactform input,
+.contactform textarea {
+    width: 100%;
+    font-size: 16px;
+    background-color: #D9D9D9;
+    font-family: inter;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.contactform button {
+    padding: 12px 20px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+
+form label {
+    font-family: inter;
+    text-align: left;
+    font-size: 16px;
+    color: white;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+ display: flex;
+}
